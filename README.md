@@ -25,4 +25,15 @@ This extension provide two ways for generating random IDs based in [nanoid proje
    - `Nano ID: generator to clipboard`
    - `Nano ID: generator to editor` (click into editor and use `cmd+n+i` or `ctrl+n+1`)
 
-## Example
+## Quickly Example
+
+![2021-11-28 23 29 09](https://user-images.githubusercontent.com/5139981/143799524-e91868f4-fffc-45c7-ae76-56c958dadb19.gif)
+
+## Customs Settings
+
+Go to `Settings` and typing `Nano ID`
+
+1. `Alphabet` you can define a range of the random
+1. `Size` you can define the length of the caracteres of the radom
+
+![image](https://user-images.githubusercontent.com/5139981/143875793-deeae152-1e09-403d-a136-122ad2aabe88.png)
