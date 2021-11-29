@@ -33,7 +33,7 @@ This extension provide two ways for generating random IDs based in [nanoid proje
 
 Go to `Settings` and typing `Nano ID`
 
-1. `Alphabet` you can define a range of the random
-1. `Size` you can define the length of the caracteres of the radom
+1. `Alphabet` you can define a range of random the characters
+1. `Size` you can define the length of the characters of the random
 
 ![image](https://user-images.githubusercontent.com/5139981/143875793-deeae152-1e09-403d-a136-122ad2aabe88.png)
