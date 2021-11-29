@@ -1,7 +1,7 @@
 {
   "name": "nano-id-generator",
   "displayName": "nano-id-generator",
-  "description": "Node ID generate",
+  "description": "Nano ID generator",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.62.0"
