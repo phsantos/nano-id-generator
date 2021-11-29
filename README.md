@@ -1,10 +1,8 @@
 # Nano ID Generator for Visual Studio Code
 
-![Peacock Icon](https://raw.githubusercontent.com/johnpapa/vscode-peacock/main/resources/peacock-icon-small.png "Peacock")
-
 This extension provide two ways for generating random IDs based in [nanoid project](https://github.com/ai/nanoid).
 
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/johnpapa.vscode-peacock.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock&WT.mc_id=javascript-0000-jopapa)  
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/phsantos.vscode-nano-id-generator.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=phsantos.vscode-nano-id-generator&WT.mc_id=javascript-0000-jopapa)  
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?color=blue&style=flat-square)](http://opensource.org/licenses/MIT)
 
 ## Install
