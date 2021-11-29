@@ -1,4 +1,4 @@
-# Node ID Generator for Visual Studio Code
+# Nano ID Generator for Visual Studio Code
 
 ![Peacock Icon](https://raw.githubusercontent.com/johnpapa/vscode-peacock/main/resources/peacock-icon-small.png "Peacock")
 
