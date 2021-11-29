@@ -1,8 +1,13 @@
-# Nano ID Generator for Visual Studio Code
+<p align="center">
+  <a href="#">
+    <img width="200" src="https://user-images.githubusercontent.com/5139981/143795867-b6f69cee-5d09-44ec-9514-7f0685f3609e.png">
+  </a>
+</p>
+
+<h1 align="center">Nano ID Generator<h4 align="center"> for Visual Studio Code</h4></h1>
 
 This extension provide two ways for generating random IDs based in [nanoid project](https://github.com/ai/nanoid).
 
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/phsantos.vscode-nano-id-generator.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=phsantos.vscode-nano-id-generator&WT.mc_id=javascript-0000-jopapa)  
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?color=blue&style=flat-square)](http://opensource.org/licenses/MIT)
 
 ## Install
