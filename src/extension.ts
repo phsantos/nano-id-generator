@@ -7,24 +7,25 @@ export function activate(context: vscode.ExtensionContext) {
   loadingStatusBarItem.text = `$(sync~spin) Generating nano-id`;
   context.subscriptions.push(loadingStatusBarItem);
 
-  let generatorToClipboard = vscode.commands.registerCommand("nano-id-generator.generatorToClipboard", () => {
-    loadingStatusBarItem.show();
-    const generator = new Generator();
-    generator.generate(true);
-    loadingStatusBarItem.hide();
+  context.subscriptions.push(
+    vscode.commands.registerCommand("nano-id-generator.toClipboard", () => {
+      loadingStatusBarItem.show();
+      const generator = new Generator();
+      generator.generate(true);
+      loadingStatusBarItem.hide();
 
-    vscode.window.showInformationMessage("Nano ID generated for clipboard");
-  });
+      vscode.window.showInformationMessage("Nano ID generated for clipboard");
+    })
+  );
 
-  let generatorToEditor = vscode.commands.registerCommand("nano-id-generator.generatorToEditor", () => {
-    loadingStatusBarItem.show();
-    const generator = new Generator();
-    generator.generate();
-    loadingStatusBarItem.hide();
-  });
-
-  context.subscriptions.push(generatorToClipboard);
-  context.subscriptions.push(generatorToEditor);
+  context.subscriptions.push(
+    vscode.commands.registerCommand("nano-id-generator.toEditor", () => {
+      loadingStatusBarItem.show();
+      const generator = new Generator();
+      generator.generate();
+      loadingStatusBarItem.hide();
+    })
+  );
 }
 
 export function deactivate() {}
