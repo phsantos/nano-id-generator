@@ -2,7 +2,7 @@
   "name": "nano-id-generator",
   "displayName": "Nano ID generator",
   "description": "Generate nanoid easily in editor `cmd+n+i/ctrl+n+i`",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.57.0"
   },
@@ -18,7 +18,7 @@
     "onCommand:nano-id-generator.toClipboard",
     "onCommand:nano-id-generator.toEditor"
   ],
-  "main": "./dist/extension.js",
+  "main": "./out/extension.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/phsantos/nano-id-generator.git"
@@ -68,17 +68,15 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "npm run package && tsc -p ./",
+    "vscode:prepublish": "tsc -p ./",
     "compile": "tsc -p ./",
     "watch": "tsc -w -p ./",
     "clean": "rm -rf out || rmdir out /s /q",
-    "package": "webpack --mode production --devtool hidden-source-map",
+    "preinstall": "node ./scripts/preinstall.js",
+    "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "npm run clean && npm run compile && node ./node_modules/vscode/bin/test",
     "update-deps": "npm update",
-    "compile-tests": "tsc -p . --outDir out",
-    "watch-tests": "tsc -p . -w --outDir out",
-    "pretest": "npm run compile-tests && npm run compile && npm run lint",
-    "lint": "eslint src --ext ts"
+    "tslint": "gulp tslint"
   },
   "devDependencies": {
     "@types/vscode": "^1.57.0",
