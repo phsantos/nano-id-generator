@@ -2,7 +2,7 @@
   "name": "nano-id-generator",
   "displayName": "Nano ID generator",
   "description": "Generate nanoid easily in editor `cmd+n+i/ctrl+n+i`",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.75.0"
   },
