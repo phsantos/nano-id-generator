@@ -2,7 +2,10 @@ import * as vscode from "vscode";
 import Generator from "./generator";
 
 export function activate(context: vscode.ExtensionContext) {
-  const loadingStatusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+  const loadingStatusBarItem = vscode.window.createStatusBarItem(
+    vscode.StatusBarAlignment.Right,
+    100
+  );
 
   loadingStatusBarItem.text = `$(sync~spin) Generating nano-id`;
   context.subscriptions.push(loadingStatusBarItem);
